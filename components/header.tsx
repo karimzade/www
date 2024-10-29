@@ -10,7 +10,7 @@ import Social from "./social";
 
 const NAV_ITEMS = {
   about: "/",
-  blog: "/blog",
+  // blog: "/blog",
   work: "/work",
   competition: "/competition",
 };
