@@ -5,7 +5,7 @@ export default function robots() {
         userAgent: "*",
       },
     ],
-    sitemap: "https://karimzade.net/sitemap.xml",
-    host: "https://karimzade.net",
+    sitemap: "https://karimzade.vercel.app/sitemap.xml",
+    host: "https://karimzade.vercel.app",
   };
 }

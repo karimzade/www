@@ -11,8 +11,8 @@ import Social from "./social";
 const NAV_ITEMS = {
   about: "/",
   // blog: "/blog",
-  work: "/work",
-  competition: "/competition",
+  // work: "/work",
+  // competition: "/competition",
 };
 
 export const Header = () => {
@@ -39,7 +39,7 @@ export const Header = () => {
 
             <div className="flex flex-col ml-4">
               <span className="text-medium inline-block font-medium">
-                Muhammed Karimzade
+                Mahammad Karimzade
               </span>
               {/* <span className="opacity-60">machine learning engineer</span> */}
             </div>

@@ -10,25 +10,25 @@ import { ThemeProvider } from "./theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://karimzade.net"),
+  metadataBase: new URL("https://karimzade.vercel.app"),
   title: {
-    default: "Muhammed Karimzade",
-    template: "%s | Muhammed Karimzade",
+    default: "Mahammad Karimzade",
+    template: "%s | Mahammad Karimzade",
   },
-  description: "Machine Learning Engineer",
+  description: "AI Engineer",
   openGraph: {
-    title: "Muhammed Karimzade",
-    description: "Machine Learning Engineer",
-    url: "https://karimzade.net",
-    siteName: "Muhammed Karimzade",
+    title: "Mahammad Karimzade",
+    description: "AI Engineer",
+    url: "https://karimzade.vercel.app",
+    siteName: "Mahammad Karimzade",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://karimzade.net/logo.png",
+        url: "https://karimzade.vercel.app/logo.png",
         width: 1200,
         height: 630,
-        alt: "Muhammed Karimzade",
+        alt: "Mahammad Karimzade",
       },
     ],
   },
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Muhammed Karimzade",
+    title: "Mahammad Karimzade",
     card: "summary_large_image",
   },
   verification: {

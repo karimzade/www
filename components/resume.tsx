@@ -27,7 +27,7 @@ export default function Resume() {
   return (
     <div className="flex flex-col gap-2 md:flex-row md:gap-2">
 
-      <ResumeButton href="/MuhammedKerimzadeCV.pdf">
+      <ResumeButton href="/KarimzadeMahammadCV.pdf">
         <div className="flex flex-row items-center">
           <span className="ml-0 font-normal">DOWNLOAD CV</span>
         </div>

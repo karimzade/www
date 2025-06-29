@@ -20,7 +20,7 @@ export async function generateMetadata({
     publishedAt: publishedTime,
     summary: description,
   } = blog.metadata;
-  let ogImage = `https://karimzade.net/logo.png`;
+  let ogImage = `https://karimzade.vercel.app/logo.png`;
 
   return {
     title,
@@ -30,7 +30,7 @@ export async function generateMetadata({
       description,
       type: "article",
       publishedTime,
-      url: `https://karimzade.net/blog/${blog.slug}`,
+      url: `https://karimzade.vercel.app/blog/${blog.slug}`,
       images: [
         {
           url: ogImage,
@@ -69,9 +69,9 @@ export default function BlogDetailPage({ params }) {
               dateModified: blog.metadata.publishedAt,
               description: blog.metadata.summary,
               image: blog.metadata.image
-                ? `https://karimzade.net${blog.metadata.image}`
-                : `https://karimzade.net/og?title=${blog.metadata.title}`,
-              url: `https://karimzade.net/blog/${blog.slug}`,
+                ? `https://karimzade.vercel.app${blog.metadata.image}`
+                : `https://karimzade.vercel.app/og?title=${blog.metadata.title}`,
+              url: `https://karimzade.vercel.app/blog/${blog.slug}`,
               author: {
                 "@type": "Person",
                 name: "Muhammed Kerimzade",

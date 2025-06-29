@@ -4,13 +4,19 @@ import Image from "next/image";
 import Link from "next/link";
 import Social from "@/components/social";
 
-
-
 export default function About() {
   const paragraphs = [
-    // `Hi 👋 I am a machine learning engineer based in Ankara, currently working on Next.js, 
-    // v0, and various other projects at Vercel.`,
-    `Freshly graduated rookie AI engineer who works, reads, and lifts.`,
+    `I'm still in the process of discovering who I am and what truly excites me. I'm 21 years old, and I'm trying to explore as many things as I can — to learn, to fail, and to grow through real experiences. Among the areas that interest me, artificial intelligence stands out the most.`,
+    
+    `Lately, I've been practicing two types of discipline: one at the gym, the other in my mind. I work out a few times a week and read regularly to keep my thinking sharp. I value balance — between movement and rest, curiosity and structure, code and reflection.`,
+    
+    `I was born in Azerbaijan and currently live temporarily in Turkey. I graduated here with a degree in Electrical and Electronics Engineering.`,
+    
+    `Right now, I'm focused on building intelligent agents and useful tools powered by large language models. Instead of relying on ready-made frameworks, I prefer to write systems from scratch in Python — staying close to the core of the problem.`,
+    
+    `When I'm not coding, you'll usually find me reading, thinking, or training. I see myself as a lifelong learner — always open, always evolving.`,
+    
+    `This site is a small corner of the internet where I share my thoughts, projects, and progress.`,
     ``
   ];
 
@@ -20,34 +26,6 @@ export default function About() {
       className="prose prose-zinc dark:prose-invert
       text-zinc-800 dark:text-zinc-200 container animate-enter"
     >
-
-      <div className="flex flex-col items-center">
-        {/* <div className="flex flex-col mr-4">
-          <span className="text-medium inline-block font-medium">
-            Muhammed Kerimzade
-          </span>
-          <span className="opacity-60"> machine learning engineer</span>
-        </div> */}
-
-        {/* <Link href="/">
-          <Image
-            src="/me-modified.png"
-            alt="Logo"
-            width={130}
-            height={130}
-            priority={true}
-          />
-        </Link> */}
-
-      </div>
-
-      {/* <div  className="flex flex-col">
-        <span className="text-medium inline-block font-medium">
-          Muhammed Kerimzade
-        </span>
-        <span className="opacity-60"> machine learning engineer</span>
-      </div> */}
-
 
       {paragraphs.map((paragraph, index) => (
         <div
@@ -65,26 +43,6 @@ export default function About() {
         </div>
       ))}
 
-      {/* <hr className="mt-0"/> */}
-
-      {/* <div className="mb-10">
-        <span className="text-gray-1100 font-normal">
-          You can review my&nbsp;
-          <a className="font-normal" href="/MuhammedKarimzadeCV.pdf" target="_blank" rel="noopener noreferrer">
-            CV
-          </a>
-          &nbsp;and also contact me via&nbsp;
-          <a className="font-normal" href="mailto:mahammadkarimzade@gmail.com" target="_blank" rel="noopener noreferrer">
-            mail
-          </a>.
-        </span>
-      </div> */}
-
-
-
-      {/* <div className="mt-10 mb-10">
-      <Resume/>
-      </div> */}
 
       <Social />
 
