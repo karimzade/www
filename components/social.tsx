@@ -47,19 +47,21 @@ export default function Social() {
           </div>
         </SocialButton>
 
-        <SocialButton href="https://www.upwork.com/freelancers/~0188938593154dc17c">
+        <SocialButton href="https://x.com/karimzademh">
           <div className="flex flex-row items-center">
-            <IconUpwork />
-            <span className="ml-3">Upwork</span>
+            <IconX/>
+            <span className="ml-3">X (Twitter)</span>
           </div>
         </SocialButton>
+
+
       </div>
 
       <div className="flex flex-col md:flex-row gap-4 justify-center">
         <SocialButton href="mailto:mahammadkarimzade@gmail.com">
           <div className="flex flex-row items-center">
             <IconMail />
-            <span className="ml-3">Mail</span>
+            <span className="ml-3">Contact</span>
           </div>
         </SocialButton>
 
@@ -67,6 +69,13 @@ export default function Social() {
           <div className="flex flex-row items-center">
             <IconCv />
             <span className="ml-3">Resume</span>
+          </div>
+        </SocialButton>
+
+        <SocialButton href="https://www.upwork.com/freelancers/~0188938593154dc17c">
+          <div className="flex flex-row items-center">
+            <IconUpwork />
+            <span className="ml-3">Work With Me</span>
           </div>
         </SocialButton>
 

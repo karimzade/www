@@ -28,7 +28,7 @@ export const Header = () => {
           <div className="flex flex-row items-center mx-auto">
             {/* <Link href="/">
               <Image
-                src="/me-modified.png"
+                src="/w.jpeg"
                 alt="Logo"
                 width={40}
                 height={40}
@@ -41,7 +41,7 @@ export const Header = () => {
               <span className="text-medium inline-block font-medium">
                 Mahammad Karimzade
               </span>
-              {/* <span className="opacity-60">machine learning engineer</span> */}
+              {/* <span className="opacity-60 text-center">ai/ml engineer</span> */}
             </div>
 
           </div>
